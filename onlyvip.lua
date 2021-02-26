@@ -4,7 +4,7 @@ if game.PlaceId ~= 2414851778 then
 end
 
 local func = [[
-    local accTable = {"4BlocksReach", "CunningOracle"}
+    local accTable = {"acc", "acc1"}
     local function GetAccs()
         for i,v in next, accTable do
             if not string.find(readfile("allAccs.txt"), v) then
