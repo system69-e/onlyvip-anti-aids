@@ -6,7 +6,7 @@ this is to prevent the autorestart from restarting the whole process if for exam
 
 
 # Usage
-for single key just put the file in your autoexec
+for single key just put the first file in your autoexec
 
 
 You HAVE to put your account name(s) in local accTable = {"accs"}, accs being your account name, DONT take out the "". local accTable = {"acc1", "acc2", "acc3"} is for having multiple accounts.
